@@ -1,0 +1,20 @@
+{
+  "name": "randomnizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/syncer.js",
+  "private": true,
+  "scripts": {
+    "build-b": "babel ./src -d ./lib"
+  },
+  "keywords": [],
+  "author": "Sujith Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
