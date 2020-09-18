@@ -1,6 +1,6 @@
 export default {
     install (Vue, options) {
-        Vue.fetchRandom = (number) => {
+        Vue.prototype.fetchRandom = (number) => {
             return Math.ceil(Math.random() * number)
         }
         if (options.store) {
