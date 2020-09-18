@@ -19,7 +19,7 @@
     "math.random"
   ],
   "author": "Sujith Kumar",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SujithJr/randomnizer/issues"
   },

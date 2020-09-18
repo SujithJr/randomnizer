@@ -3,7 +3,7 @@ export default {
         Vue.prototype.fetchRandom = (number) => {
             return Math.ceil(Math.random() * number)
         }
-        if (options.store) {
+        if (options && options.store) {
             options.store.fetchRandom = (number) => {
                 return Math.ceil(Math.random() * number)
             }
