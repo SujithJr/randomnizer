@@ -1,15 +1,29 @@
 {
   "name": "randomnizer",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "dist/syncer.js",
+  "main": "src/index.js",
   "private": true,
   "scripts": {
     "build-b": "babel ./src -d ./lib"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SujithJr/randomnizer"
+  },
+  "keywords": [
+    "random",
+    "generate",
+    "generator",
+    "math",
+    "math.random"
+  ],
   "author": "Sujith Kumar",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SujithJr/randomnizer/issues"
+  },
+  "homepage": "https://github.com/SujithJr/randomnizer",
   "devDependencies": {
     "@babel/preset-env": "^7.11.5",
     "babel-cli": "^6.26.0",
