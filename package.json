@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "main": "src/index.js",
-  "private": true,
   "scripts": {
-    "build-b": "babel ./src -d ./lib"
+    "build": "babel ./src -d ./lib",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
