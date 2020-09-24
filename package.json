@@ -1,6 +1,6 @@
 {
   "name": "randomnizer",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "A random integer generator for Vue.js between a specified range",
   "main": "src/index.js",
   "scripts": {
