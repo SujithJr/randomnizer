@@ -12,8 +12,12 @@ Vue.use(randomnizer, { store }) // To access it inside the store like a store ob
 #### You can access the randomnizer function in the following way,
 
 Inside component and store
+
+`arg 1: number`: If 100, it will generate ceil value of the random number between 0 and 100
+
+`arg 2: string (optional)`: ceil or floor - default is set to 'ceil'
 ```
-this.fetchRandom(range) // If 100, it will generate ceil value of the random number between 0 and 100
+this.fetchRandom(range, type = 'ceil | floor')
 ```
 Without store parameter, access it by importing Vue inside the store
 ```
